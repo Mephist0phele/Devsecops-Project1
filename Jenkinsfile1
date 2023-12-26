@@ -15,7 +15,7 @@ pipeline{
         }
         stage('Checkout from Git'){
             steps{
-                git branch: 'master', git credentialsId: 'Mephist0phele', url: 'https://gitlab/engineering/automation/create_pass_criteria.git'
+                git branch: 'master', git credentialsId: 'Mephist0phele', url: 'https://github.com/Mephist0phele/Devsecops-Project1'
             }
         }
         stage("Sonarqube Analysis "){
