@@ -15,7 +15,7 @@ pipeline{
         }
         stage('Checkout from Git'){
             steps{
-                git branch: 'master', url: 'https://github.com/AWS-AZURE-Bootcamp5/Devsecops-Project1.git'
+                git branch: 'master', url: 'https://github.com/Mephist0phele/Devsecops-Project1'
             }
         }
         stage("Sonarqube Analysis "){
